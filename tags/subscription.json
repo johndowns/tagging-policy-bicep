@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Department",
+        "parameterName": "departmentTagName",
+        "description": "The department that owns this Azure subscription.",
+        "isRequired": true
+    },
+    {
+        "name": "Cost Centre",
+        "parameterName": "costCentreTagName",
+        "description": "The accounting cost centre associated with this Azure subscription.",
+        "isRequired": false
+    },
+    {
+        "name": "Environment",
+        "parameterName": "environmentTagName",
+        "description": "The deployment environment of the resources in this Azure subscription",
+        "isRequired": false
+    }
+]
